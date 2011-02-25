@@ -37,7 +37,7 @@ $(
 			.keydown (
 			    function (e) {
 				if(e.keyCode == 13) {
-				    $(location).attr('pathname', '/r/' + $('#jump-input').val());
+				    $(location).attr('href', 'http://www.reddit.com/r/' + $('#jump-input').val());
 				    $('#reddit-jump').fadeOut(3000);
 				    $('body').focus();
 				    e.stopPropagation();

@@ -2,11 +2,11 @@
    "content_scripts": [ {
       "js": [ "jquery-1.5.min.js", "content.js" ],
       "css": [ "content.css"],
-      "matches": [ "http://www.reddit.com/*" ]
+      "matches": [ "<all_urls>" ]
    } ],
    "icons": { "128": "icon128.png" },
-   "description": "reddit plugin to quickly jump between subreddits using Alt + r",
-   "name": "reddit jump",
+   "description": "reddit plugin to quickly jump to a subreddit from anywhere using Alt + r",
+   "name": "reddit hyper jump",
    "update_url": "http://clients2.google.com/service/update2/crx",
    "version": "0.1"
 }
